@@ -24,7 +24,7 @@ namespace ValidateConnectionString
            var initialCatalog = txtDataBase.Text;
            var user = txtUser.Text;
            var pass = txtPass.Text;
-
+            var teste = "";
             string connectionString = $"Password={pass}" +
                                       $";Persist Security Info=True" +
                                       $";User ID={user}" +
